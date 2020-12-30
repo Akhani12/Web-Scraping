@@ -5,7 +5,7 @@ from selenium import webdriver
 import mysql.connector
 from selenium.webdriver.common.keys import Keys
 
-k = 348
+k = 1
 h = 1
 mydb = mysql.connector.connect(
     host="localhost",
