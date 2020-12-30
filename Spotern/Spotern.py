@@ -1,9 +1,12 @@
+# k is for pages
+# h is for products
 import time
 import random
 from scrapy import Selector
 from selenium import webdriver
 import mysql.connector
 from selenium.webdriver.common.keys import Keys
+
 
 k = 1
 h = 1
