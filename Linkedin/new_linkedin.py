@@ -6,7 +6,7 @@ driver = webdriver.Chrome(executable_path="D:\chromedriver.exe")
 driver.get('https://www.linkedin.com')
 
 username = driver.find_element_by_xpath('//*[@id="session_key"]')
-username.send_keys('emailid')
+username.send_keys('email_id')
 
 password = driver.find_element_by_xpath('//*[@id="session_password"]')
 password.send_keys('password')
